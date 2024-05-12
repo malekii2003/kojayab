@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "MyFont";
+    src: url("../public/font/yekanbakh/YekanBakhFaNum-Bold.woff");
+  }
+  
+  body{
+    font-family: MyFont;
+  }
+
